@@ -1,0 +1,90 @@
+.gradient-custom-3 {
+
+  background: #84fab0;
+
+  
+  background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+  background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+}
+.gradient-custom-4 {
+  
+  background: #84fab0;
+
+
+  background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+
+ 
+  background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+}
+
+.bg-image{
+  background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/search-box/img4.webp')
+}
+
+form {
+  width:100%;
+
+  text-align: center;
+}
+.txbb {
+  display: block;
+  position: relative;
+  margin: 40px 0px;
+}
+.label-txt {
+  position: absolute;
+  top: -1.6em;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: .8em;
+  letter-spacing: 1px;
+  color: rgb(120,120,120);
+  transition: ease .3s;
+}
+.input {
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.line-box {
+  position: relative;
+  width: 100%;
+  height: 2px;
+  background: #BCBCBC;
+}
+
+.line {
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient( rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+  transition: ease .6s;
+}
+
+.input:focus + .line-box .line {
+  width: 100%;
+}
+
+
+
+
+.label-active{
+  top: -3em;
+}
+
+.register-form{
+  width: 360px;
+    background: #f1f1f1;
+    height: 605px;
+    padding: 80px 40px;
+    border-radius: 10px;
+    transform: translate(4%,10%);
+    position: relative;
+}
